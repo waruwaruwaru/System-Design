@@ -15,7 +15,7 @@
 ## System Interface Definition
 * Define what APIs are expected from the system. This will not only establish the exact contract expected from the system, but will also ensure if we haven’t gotten any requirements wrong. Some examples for our Twitter-like service will be:
 
-```sh
+```s
 postTweet(user_id, tweet_data, tweet_location, user_location, timestamp, …)  
 generateTimeline(user_id, current_time, user_location, …)  
 markTweetFavorite(user_id, tweet_id, timestamp, …)  
